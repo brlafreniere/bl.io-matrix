@@ -20,6 +20,10 @@ p:last-child { margin-bottom: 0}
     padding: 1em;
 }
 
+#main-menu-container .menu-item {
+    margin: 0em 1em;
+}
+
 #theme-header {
     background-color: #41573d;
     padding: 1em 1em;

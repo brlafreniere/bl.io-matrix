@@ -27,7 +27,7 @@
             <?php
                 wp_nav_menu([
                     'theme_location' => 'header-menu',
-                    'container_class' => '',
+                    'menu_class' => 'd-flex',
                     'container_id' => 'main-menu-container'
                 ]);
             ?>
