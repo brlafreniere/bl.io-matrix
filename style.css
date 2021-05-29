@@ -1,17 +1,8 @@
 body {
     font-family: 'Courier Prime', monospace;
-    color: #4a993c;
-    background-color: black;
+    color: #6cb55e;
+    background-color: #131313;
     // font-size: 1.4em;
-}
-
-.post {
-    margin-bottom: 3em;
-    padding-bottom: 1em;
-}
-
-.post-title {
-    padding-bottom: 0.5em;
 }
 
 p:last-child { margin-bottom: 0}
@@ -25,21 +16,22 @@ p:last-child { margin-bottom: 0}
 }
 
 #theme-header {
-    background-color: #41573d;
+    background-color: #6cb55e;
     padding: 1em 1em;
     margin-bottom: 1em;
 }
 
-#theme-header a:link {
+a:link {
     color: white;
 }
-#theme-header a:visited {
+a:visited {
     color: white;
 }
-#theme-header a:hover {
+a:hover {
     color: white;
+    background-color: #6cb55e;
 }
-#theme-header a:active {
+a:active {
     color: white;
 }
 
