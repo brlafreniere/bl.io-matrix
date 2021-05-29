@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    color: #4a993c;
+    background-color: black;
+    // font-size: 1.4em;
+}
+
+.post {
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+}
+
+.post-title {
+    padding-bottom: 0.5em;
+}
+
+p:last-child { margin-bottom: 0}
+
+#content-container {
+    padding: 1em;
+}
+
+#theme-header {
+    background-color: #41573d;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+}
+
+#theme-header a:link {
+    color: white;
+}
+#theme-header a:visited {
+    color: white;
+}
+#theme-header a:hover {
+    color: white;
+}
+#theme-header a:active {
+    color: white;
+}
+
+#menu-main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
