@@ -3,6 +3,7 @@
 <div class="container" id='content-container'>
     <?php while (have_posts()) { ?>
         <div id="post-<?php the_ID() ?>" <?php post_class() ?>>
+            <h2 class="mb-5"><?php the_title() ?></h2>
             <?php the_post(); ?>
             <?php the_content(); ?>
         </div>
