@@ -5,7 +5,7 @@
         <div id="post-<?php the_ID() ?>" <?php post_class() ?>>
             <?php the_post(); ?>
 
-            <h1 class="mb-5 mt-5"><?php the_title() ?></h1>
+            <h1 class=""><?php the_title() ?></h1>
 
             <?php the_content(); ?>
         </div>

@@ -5,6 +5,17 @@ body {
     // font-size: 1.4em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    // background-color: white;
+    padding-top: 0.75em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.4em;
+    margin: 1.2em 0em;
+}
 p:last-child { margin-bottom: 0}
 
 #content-container {
